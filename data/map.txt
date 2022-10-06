@@ -1,131 +1,24 @@
-# Copyright (c) 2022 by Epsil-Astra
-#
-# Endless Sky is free software: you can redistribute it and/or modify it under the
-# terms of the GNU General Public License as published by the Free Software
-# Foundation, either version 3 of the License, or (at your option) any later version.
-#
-# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
-# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
-# PARTICULAR PURPOSE.  See the GNU General Public License for more details.
-
 system Lesath
-	pos -516 485
-	government Republic
-	habitable 1715
-	link Atria
-	link Dschubba
-	link Girtab
-	link Rastaban
-	link Shaula
-	link Sargas
-	link Lyrae
-	asteroids "medium rock" 9 4.8384
-	asteroids "large rock" 21 7.2
-	asteroids "medium metal" 8 4.3776
-	asteroids "large metal" 1 5.4144
-	trade Clothing 285
-	trade Electronics 759
-	trade Equipment 540
-	trade Food 190
-	trade "Heavy Metals" 1011
-	trade Industrial 629
-	trade "Luxury Goods" 1070
-	trade Medical 797
-	trade Metal 495
-	trade Plastic 271
-	fleet "Small Southern Merchants" 1000
-	fleet "Large Southern Merchants" 2000
-	fleet "Small Southern Pirates" 2000
-	fleet "Large Southern Pirates" 4000
-	fleet "Small Militia" 5000
-	attributes south
-	arrival 1715
-	belt 1865
-	minables silicon 3 10.2616
-	minables titanium 2 10.8766
-	object
-		sprite star/f5
-		period 10
-		attributes south
-		arrival 1715
-		belt 1865
-		minables silicon 3 10.2616
-		minables titanium 2 10.8766
-	object
-		sprite planet/rock4
-		distance 366.61
-		period 67.8007
-		attributes south
-		arrival 1715
-		belt 1865
-		minables silicon 3 10.2616
-		minables titanium 2 10.8766
-		object
-			sprite planet/rhea
-			distance 189
-			period 21.2152
-			attributes south
-			arrival 1715
-			belt 1865
-			minables silicon 3 10.2616
-			minables titanium 2 10.8766
-	object
-		sprite planet/venus
-		distance 780.86
-		period 210.759
-		attributes south
-		arrival 1715
-		belt 1865
-		minables silicon 3 10.2616
-		minables titanium 2 10.8766
-	object
-		sprite planet/ocean1-b
-		distance 1069.07
-		period 337.626
-		attributes south
-		arrival 1715
-		belt 1865
-		minables silicon 3 10.2616
-		minables titanium 2 10.8766
-	object
-		sprite planet/desert6-b
-		distance 1577.48
-		period 605.164
-		attributes south
-		arrival 1715
-		belt 1865
-		minables silicon 3 10.2616
-		minables titanium 2 10.8766
-		object
-			sprite planet/oberon
-			distance 158
-			period 18.9922
-			attributes south
-			arrival 1715
-			belt 1865
-			minables silicon 3 10.2616
-			minables titanium 2 10.8766
-	object
-		sprite planet/dust0
-		distance 2628.29
-		period 1301.48
-		attributes south
-		arrival 1715
-		belt 1865
-		minables silicon 3 10.2616
-		minables titanium 2 10.8766
+	add link Lyrae
 
 system Lyrae
-	pos -503.447 433.018
+	pos -493.225 433.462
 	government Republic
-	habitable 1715
-	link Sargas
+	attributes south
+	arrival
+		link 2625
+		jump 1825
+	habitable 2115
+	belt 3209
 	link Lesath
-	asteroids "medium rock" 3 3.4371
-	asteroids "large rock" 1 7.1307
-	asteroids "small metal" 1 7.3872
-	asteroids "medium metal" 21 2.9241
-	asteroids "large metal" 11 3.7449
+	link Sargas
+	asteroids "medium rock" 3 3.437
+	asteroids "large rock" 1 7.131
+	asteroids "small metal" 1 7.387
+	asteroids "medium metal" 21 2.924
+	asteroids "large metal" 11 3.745
+	minables aluminum 4 9.174
+	minables iron 2 7.049
 	trade Clothing 362
 	trade Electronics 489
 	trade Equipment 563
@@ -136,202 +29,118 @@ system Lyrae
 	trade Medical 573
 	trade Metal 290
 	trade Plastic 376
-	attributes rim
-	arrival 625
-	belt 1609
-	minables aluminum 4 9.1736
-	minables iron 2 7.04854
 	object
 		sprite star/f5
 		period 10
-		attributes rim
-		arrival 625
-		belt 1609
-		minables aluminum 4 9.1736
-		minables iron 2 7.04854
 	object
 		sprite planet/ice1
-		distance 950.121
+		distance 1168.175
 		period 282.876
 		offset 58.193
-		attributes rim
-		arrival 625
-		belt 1609
-		minables aluminum 4 9.1736
-		minables iron 2 7.04854
 	object
 		sprite planet/dust4
-		distance 1143.96
+		distance 3213.964
 		period 373.719
 		offset 104.718
-		attributes rim
-		arrival 625
-		belt 1609
-		minables aluminum 4 9.1736
-		minables iron 2 7.04854
 	object Alyria
 		sprite planet/ice4
-		distance 2030.8
+		distance 2158.228
 		period 883.952
 		offset 173.148
-		attributes rim
-		arrival 625
-		belt 1609
-		minables aluminum 4 9.1736
-		minables iron 2 7.04854
 		object Imyria
 			sprite planet/ice0
-			distance 153.24
-			period 23.8464
+			distance 226.201
+			period 23.846
 			offset 222.875
-			attributes rim
-			arrival 625
-			belt 1609
-			minables aluminum 4 9.1736
-			minables iron 2 7.04854
 		object
 			sprite planet/ice8
-			distance 300.24
-			period 65.3981
-			attributes rim
-			arrival 625
-			belt 1609
-			minables aluminum 4 9.1736
-			minables iron 2 7.04854
+			distance 390.142
+			period 65.398
 	object
 		sprite planet/oberon
 		distance 2592.45
 		period 1274.95
 		offset 43.194
-		attributes rim
-		arrival 625
-		belt 1609
-		minables aluminum 4 9.1736
-		minables iron 2 7.04854
 	object
 		sprite planet/gas6
-		distance 4534.16
+		distance 4194.141
 		period 2948.99
-		offset 62.5406
-		attributes rim
-		arrival 625
-		belt 1609
-		minables aluminum 4 9.1736
-		minables iron 2 7.04854
+		offset 62.541
 		object
 			sprite planet/dust0
 			distance 283
-			period 12.1603
-			attributes rim
-			arrival 625
-			belt 1609
-			minables aluminum 4 9.1736
-			minables iron 2 7.04854
+			period 12.16
 		object
 			sprite planet/dust1
 			distance 372
-			period 18.3265
-			attributes rim
-			arrival 625
-			belt 1609
-			minables aluminum 4 9.1736
-			minables iron 2 7.04854
+			period 18.327
 		object
 			sprite planet/ice7
 			distance 551.82
-			period 33.1101
+			period 33.11
 			offset 289.212
-			attributes rim
-			arrival 625
-			belt 1609
-			minables aluminum 4 9.1736
-			minables iron 2 7.04854
+	object
+		sprite planet/gas10-b
+		distance 6895.395
+		period 4523.84
+		offset 4
+		object
+			sprite planet/rock4
+			distance 506.065
+			period 23.7
+			offset 2
+		object
+			sprite planet/ice6
+			distance 916.73
+			period 43
+			offset 2
 
 system Sargas
-	pos -542 445
-	government Republic
-	habitable 3443.95
-	link Kornephoros
-	link Lesath
-	link Lyrae
-	asteroids "large metal" 1 2.6656
-	trade Clothing 290
-	trade Electronics 807
-	trade Equipment 494
-	trade Food 206
-	trade "Heavy Metals" 1116
-	trade Industrial 615
-	trade "Luxury Goods" 962
-	trade Medical 753
-	trade Metal 518
-	trade Plastic 298
-	fleet "Small Southern Merchants" 700
-	fleet "Large Southern Merchants" 3000
-	fleet "Small Southern Pirates" 2000
-	fleet "Large Southern Pirates" 4000
-	fleet "Small Militia" 4000
-	fleet "Large Militia" 7000
-	attributes south
 	arrival 1500
+	habitable 3443.95
 	belt 6627.16
+	add link Lyrae
 	object
 		sprite star/k0
 		distance 149.14
-		period 14.4611
+		period 14.461
 		offset 180
-		attributes south
-		arrival 1500
-		belt 6627.16
 	object
 		sprite star/k0
 		distance 149.14
-		period 14.4611
-		attributes south
-		arrival 1500
-		belt 6627.16
+		period 14.461
 	object
 		sprite planet/rock16
 		distance 1109.86
-		period 78.6924
-		attributes south
-		arrival 1500
-		belt 6627.16
+		period 78.692
 	object
 		sprite planet/lava7
 		distance 2478.63
 		period 233.671
-		attributes south
-		arrival 1500
-		belt 6627.16
 	object Trinket
 		sprite planet/ocean7
 		distance 3579.55
 		period 384.02
-		attributes south
-		arrival 1500
-		belt 6627.16
 	object
 		sprite planet/oberon
 		distance 8511.92
 		period 1235.26
-		attributes south
-		arrival 1500
-		belt 6627.16
 
 planet Alyria
-	attributes "factory urban rim"
+	attributes factory south tourism urban
 	landscape land/city19
-	description `	Alyria was one of the earliest planets colonized by the first settlers on the Rim, while it orbits a very hot star its located in the very outer edge of the habitable zone, making it colder than average, however the planet and its moon became a major stop for trade routes to Tarazed. Today Alyria is one of the most urbanized planets in the south, being home for one-and-a-half hundred million residents from all regions of space and thanks to its vast resources, a major industrial and scientific hub in the Rim.`
-	description `	The largest industry around is the Prometeus AT Group which manufacture everything from home appliances to massive ships for both the civilian market and the militias that protect this space.`
-	spaceport `	The spaceport is located inside the main urban center near the goverment house, and is divided into two sectors. The inermost sector is the oldest, built when the planet was first discovered it was the end point to various caravans, however it isnt capable of handling most modern freighters of today and its now used for smaller transport starships, the oldest facilities were closed off are being currently converted into a museum. The outermost ring, built 200 years ago, is on of the largest spaceports in the region, handlind everything from food convoys to shipbuilding parts.`
-	spaceport `	Slightly outside the spaceport there's a smaller port owned by Prometeus AT that handles all sorts of equipment.`
+	description "Alyria was one of the earliest planets colonized by the first settlers on the Rim, while it orbits a very hot star its located in the very outer edge of the habitable zone, making it colder than average, however the planet and its moon became a major stop for trade routes to Tarazed. Today Alyria is one of the most urbanized planets in the south, being home for one-and-a-half hundred million residents from all regions of space and thanks to its vast resources, a major industrial and scientific hub in the Rim."
+	description "The largest industry around is the Prometeus AT Group which manufacture everything from home appliances to massive ships for both the civilian market and the militias that protect this space."
+	spaceport "The spaceport is located inside the main urban center near the goverment house, and is divided into two sectors. The inermost sector is the oldest, built when the planet was first discovered it was the end point to various caravans, however it isnt capable of handling most modern freighters of today and its now used for smaller transport starships, the oldest facilities were closed off are being currently converted into a museum. The outermost ring, built 200 years ago, is on of the largest spaceports in the region, handlind everything from food convoys to shipbuilding parts."
+	spaceport "Slightly outside the spaceport there's a smaller port owned by Prometeus AT that handles all sorts of equipment."
+	government Republic
 	shipyard "Basic Ships"
-	shipyard "Southbound Basics"
 	shipyard "Southbound Advanced"
+	shipyard "Southbound Basics"
+	outfitter "Ammo South"
+	outfitter "Common Outfits"
 	outfitter "Delta V Advanced"
 	outfitter "Kraz Basics"
-	outfitter "Common Outfits"
-	outfitter "Ammo South"
 	bribe 0.03
 	security 0.5
 	tribute 1200
@@ -339,29 +148,234 @@ planet Alyria
 		fleet "Large Militia" 28
 
 planet Imyria
-	attributes research south tourism moon
+	attributes moon research south tourism
 	landscape land/snowvillaged
-	description `Imyria is the first moon of Alyria and the only one that is habitable for humans. In the early days of the Rim, Imyria was used as a stopgap for repairing ships in long hauls taking advantage of the lower gravity. As things quiet down the moon settlement found new life as a tourist destination and education home especially for the increasing middle class of the Dirt Belt and the surroundings. As such more then half of Imyria residents are off-world students. Today the moon is home to various ski resorts, mountain climbing and vacation homes courtesy of the industries who provide substantial benefits to workers as well as large universities which atract many tourist every year.`
-	spaceport `Although not outdated in any sense the spaceport has a distinctive vintage style from the early days of the Rim. The main terminal is littered with advertisments for many resorts and schools in the zone and many buses come and go from the terminal. The port is located some kilometers of the main settlement which resembles an alpine village that you would see on old Earth movies. Just outside the the village there is a large education campus where many students qualify for the many industry-oriented jobs in the system.`
+	description "Imyria is the first moon of Alyria and the only one that is habitable for humans. In the early days of the Rim, Imyria was used as a stopgap for repairing ships in long hauls taking advantage of the lower gravity. As things quiet down the moon settlement found new life as a tourist destination and education home especially for the increasing middle class of the Dirt Belt and the surroundings. As such more then half of Imyria residents are off-world students. Today the moon is home to various ski resorts, mountain climbing and vacation homes courtesy of the industries who provide substantial benefits to workers as well as large universities which atract many tourist every year."
+	spaceport "Although not outdated in any sense the spaceport has a distinctive vintage style from the early days of the Rim. The main terminal is littered with advertisments for many resorts and schools in the zone and many buses come and go from the terminal. The port is located some kilometers of the main settlement which resembles an alpine village that you would see on old Earth movies. Just outside the the village there is a large education campus where many students qualify for the many industry-oriented jobs in the system."
+	government Republic
 	outfitter "Kraz Basics"
 	tribute 400
 		threshold 1500
 		fleet "Small Militia" 25
 
 planet Trinket
-	attributes south tourism
-	landscape land/beach3
-	description `In a region of the galaxy not known for beach resorts, Trinket has become somewhat of a major tourist destination. It is not a particularly warm world, and near both poles icebergs float year round, but at the equator the weather is almost tropical and the water is warm enough for swimming.`
-	description `	Occasionally one of the ocean currents will pick up an iceberg and carry it all the way down past the resorts before it melts completely. Taking a boat out to these icebergs is a popular daytime activity here.`
-	spaceport `The spaceport is a long, two-story building of wood and stone with hundreds of stalls selling fruit and clothing and bad artwork.`
-	spaceport `	Many of the starships parked here have scorch marks and dents on their hulls, a sure sign of recent battle. It is likely that some of the people walking through the port are in fact pirates, posing as civilians in order to sell stolen cargo or to take a vacation incognito.`
+
+planet "Nueva Barcelona"
+	landscape land/sea14-sfiera
+	description "Nueva Barcelona is a tropical world orbiting a binary star, it is home to a million people and a good manufacturing industry. its beaches are a tourist atraction unto themselves and many take advantadge of the Spring and Summer to go to them.the Coasts are litered by little mansions owned by people who tought the paradise planets were a tad to expensive."
+	spaceport "The Spaceport is clearly acomodated for tourism ships, every now and then Shuttles with families touch and go as thay make space for more starships."
+	government Republic
 	outfitter "Basic Outfits"
-	outfitter "Delta V Basics"
-	outfitter "Ammo North"
+	outfitter "Basic Weapons"
+	outfitter "Kraz Basics"
+	outfitter "Lovelace Basics"
+	outfitter "Syndicate Basics"
+	tribute 750
+
+system Magallan
+	pos -549.449 212.634
+	government Republic
+	habitable 6495.816
+	link Menkent
+	trade Clothing 259
+	trade Electronics 775
+	trade Equipment 540
+	trade Food 361
+	trade "Heavy Metals" 873
+	trade Industrial 729
+	trade "Luxury Goods" 1153
+	trade Medical 560
+	trade Metal 493
+	trade Plastic 394
+	object
+		sprite star/a-giant
+		distance 144.884
+		period 371.841
+	object
+		sprite star/g-supergiant
+		distance 310.275
+		period 371.841
+		offset 180
+	object
+		sprite planet/gas17
+		distance 1155
+		period 194.812
+	object
+		sprite planet/gas1
+		distance 2193
+		period 509.684
+		object
+			sprite planet/dust0-b
+			distance 479
+			period 645.651
+		object
+			sprite planet/rock3-b
+			distance 577
+			period 523.919
+	object
+		sprite planet/gas1-b
+		distance 3562
+		period 1055.077
+		object "Nueva Barcelona"
+			sprite planet/ocean0-b
+			distance 464.004
+			period 271.787
+	object
+		sprite planet/gas9-b
+		distance 4717
+		period 1607.837
+
+system Menkent
+	add link Magallan
+
+system Peresedersi
+	object
+		sprite star/nova
+		distance 35.732
+		period 1000
+		offset 190
+	object
+		sprite star/nova-core
+		period 1000
+		offset 190
+	object
+		sprite planet/lava5
+		distance 1567.08
+		period 350.922
+	object
+		sprite planet/lava1
+		distance 1761.08
+		period 418.064
+	object
+		sprite planet/lava7
+		distance 2248.08
+		period 602.965
+
+planet Tianjian
+	attributes "near earth" urban
+	landscape land/city12
+	description "In the very early days of hyperspace travel, most settlers chose to put down roots within a few jumps of Earth, because until more fuel depots were built, colonies farther out would seldom be visited by cargo ships. As a result, a lot of effort was put into terraforming and developing worlds that would have been passed over by most colonists today."
+	description "Tianjian is one such world, and it is now overpopulated, and poor enough that maintaining the terraforming equipment and climate requires almost a third of the planetary government's tax income."
+	spaceport `The "new port" here was built several centuries ago, when the grand but impractical spaceport built by the original settlers had deteriorated to the point where it was no longer usable. This port is much simpler by comparison: just a ring of landing pads of various sizes around a large central building with ten levels of warehouse space accessible by freight elevator.`
+	spaceport "There are always locals hanging around the port, some of them mere children, who are trying to find a cheap ride off-planet."
 	outfitter "Ammo South"
-	outfitter "Pirate Outfits"
-	bribe 0.02
-	security 0.4
-	tribute 500
-		threshold 2500
-		fleet "Small Militia" 36
+	outfitter "Common Outfits"
+	outfitter "Delta V Basics"
+	outfitter "Kraz Basics"
+	security 0.1
+	tribute 1400
+		fleet "Small Republic" 50
+
+system Merak
+	object
+		sprite star/g5
+		distance 42.093
+		period 11.229
+	object
+		sprite star/k0
+		distance 53.69
+		period 11.229
+		offset 180
+	object
+		sprite planet/dust6
+		distance 244.494
+		period 45.796
+	object
+		sprite planet/lava6-b
+		distance 556.134
+		period 157.105
+	object
+		sprite planet/lava0
+		distance 789.024
+		period 265.495
+	object Tianjian
+		sprite planet/forest4-b
+		distance 1107.51
+		period 441.513
+	object
+		sprite planet/luna
+		distance 2504.4
+		period 1501.33
+
+planet "New Albion"
+	attributes "dirt belt" factory farming urban
+	landscape land/city6
+	description "New Albion is one of the few worlds in the Dirt Belt region of the galaxy that is relatively prosperous and has a large population. Although the gravity here is slightly low, it is otherwise a nearly ideal Earth-like world, rich enough in natural resources that all the raw materials for the local industry can come from on-planet."
+	description "Among the native life forms, the most striking are the many species of large and colorful birds, most of which have learned to give the cities and the spaceport a wide berth."
+	spaceport "The spaceport is a granite ziggurat, a step pyramid with landing pads and hangars on each level. On the top levels are the dining areas and meeting rooms for corporate visitors; the lower floors provide warehouse and storage space."
+	spaceport "Compared to the relatively traditional architecture of the city nearby, the spaceport looks out of place, even absurd. But to the locals, it is meant as a clear display to visitors that even though they are in a region of space known for poor and sparsely populated worlds, this particular world is far more developed."
+	shipyard "Basic Ships"
+	shipyard "Tarazed Basics"
+	outfitter "Ammo South"
+	outfitter "Common Outfits"
+	outfitter "Delta V Basics"
+	outfitter "Kraz Basics"
+	security 0.2
+	tribute 1300
+		threshold 4500
+		fleet "Large Militia" 20
+
+system Dabih
+	object
+		sprite star/k3
+		distance 31.935
+		period 14.073
+		offset 180
+	object
+		sprite star/m3
+		distance 62.481
+		period 14.073
+	object
+		sprite planet/cloud3-b
+		distance 288.034
+		period 74.984
+	object "New Albion"
+		sprite planet/forest6-b
+		distance 742.074
+		period 310.081
+	object
+		sprite planet/gas2
+		distance 1761.48
+		period 1134.02
+		object
+			sprite planet/ice0
+			distance 220
+			period 14.503
+		object
+			sprite planet/rock7
+			distance 309
+			period 24.141
+
+system Vindemiatrix
+	object
+		sprite star/g0
+		period 10
+	object
+		sprite planet/cloud0
+		distance 162.25
+		period 25.155
+	object
+		sprite planet/rock4
+		distance 542.69
+		period 153.877
+	object "San Martin"
+		sprite planet/forest2-b
+		distance 943.05
+		period 352.492
+	object
+		sprite planet/rhea
+		distance 2091.26
+		period 1164.01
+
+planet "San Martin"
+	attributes "dirt belt" farming
+	landscape land/fields1
+	description "San Martin is a world slightly larger than Earth that has a modest industry but it is mostly ideal for ranching. Outside the cities the planet sole supercontinent is filled by small farmlands owned by families or small comunities. Although the people outside the cities live pastoral lives, the cities are still the major centers of the economy, with many conmuting to visit or sell their products"
+	spaceport "The spaceport is located on the outskirts of the larges city in the planet. While modest compared to other ports near earth, this spaceport is well equipped enough to handle large containers that send the Planets products off world. Outside the cargo area, there is a shoping mall and a large nature park for those who stay."
+	outfitter "Ammo South"
+	outfitter "Basic Outfits"
+	security 0.05
+	tribute 1000
+		threshold 3500
+		fleet "Large Republic" 4
+
